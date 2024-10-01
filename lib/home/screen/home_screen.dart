@@ -55,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Container(
                   height: w*0.4,
                   width: w*1,
-child: Image,
+child: Image.asset(a[index]["Image"],fit: BoxFit.fill,),
                   color: Colors.black,
                 ),
                 Column(
@@ -63,7 +63,7 @@ child: Image,
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text("Mission Chinees Food",style: TextStyle(fontWeight: FontWeight.w900),),
+                        Text(a[index]["Test"],style: TextStyle(fontWeight: FontWeight.w900),),
                         Container(
                           height: h*0.025,
                           width: w*0.07,
